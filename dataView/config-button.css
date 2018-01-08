@@ -1,0 +1,43 @@
+﻿.vfbtn-header{
+background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #a81b1b);
+  background-image: -moz-linear-gradient(top, #ff0000, #a81b1b);
+  background-image: -ms-linear-gradient(top, #ff0000, #a81b1b);
+  background-image: -o-linear-gradient(top, #ff0000, #a81b1b);
+  background-image: linear-gradient(to bottom, #ff0000, #a81b1b);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  padding: 2px 20px;
+  text-decoration: none;
+  border:0;
+}
+.vfbtn {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #a81b1b);
+  background-image: -moz-linear-gradient(top, #ff0000, #a81b1b);
+  background-image: -ms-linear-gradient(top, #ff0000, #a81b1b);
+  background-image: -o-linear-gradient(top, #ff0000, #a81b1b);
+  background-image: linear-gradient(to bottom, #ff0000, #a81b1b);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 6px 15px 6px 15px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.vfbtn:hover {
+  background: #e02424;
+  background-image: -webkit-linear-gradient(top, #e02424, #6b3f3f);
+  background-image: -moz-linear-gradient(top, #e02424, #6b3f3f);
+  background-image: -ms-linear-gradient(top, #e02424, #6b3f3f);
+  background-image: -o-linear-gradient(top, #e02424, #6b3f3f);
+  background-image: linear-gradient(to bottom, #e02424, #6b3f3f);
+  text-decoration: none;
+}

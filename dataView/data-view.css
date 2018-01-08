@@ -1,0 +1,162 @@
+﻿tfoot{
+    text-align:center;
+}
+.sortHeader {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tableHeader{
+    white-space:nowrap;
+
+}
+#dataViewTable th{
+    font-size:18px;
+}
+.filterHeader{
+    font-size:14px;
+    width:100%;
+    min-width:150px;
+}
+.vf-icon{
+    cursor: pointer;
+    margin-right:10px;
+    border:1px solid red;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+    font-size:24px;
+    box-shadow: 2px 0px 10px 2px grey;
+    padding: 3px;
+}
+.btnPaging{
+    cursor: pointer;
+    margin-right:10px;
+    border:1px solid lightgray;
+    border-radius:5px;
+    background-color:lightgray;
+    color:white;
+    font-size:24px;
+    box-shadow: 2px 0px 10px 2px grey;
+    padding: 3px 20px;
+}
+.rowsPerPage{
+    float:left;
+}
+.rowsPerPage > select{
+    width:70px;
+    display:inline-block;
+}
+.headerMenu{
+    float:right;
+    
+}
+.ddlHeaderMenuBtn{
+    background-color: lightgray;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+}
+td,th{
+    border-right:solid 1px lightgray;
+}
+/*.btnClearFilters{
+    background-color: gray;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 3px 3px;
+    text-decoration: none;
+    cursor:pointer;
+    float:left;
+    background-image: linear-gradient(to bottom, #ff0000, #a81b1b);
+    background-image: -webkit-linear-gradient(top, #aaa, #555);
+    border-radius:5px;
+}*/
+.dataview-context-menu{
+    background-color:white;
+    border-radius:1px;
+    min-width:100px;
+    min-height:150px;
+    z-index:10;
+    position:absolute;
+    display:none;
+    -webkit-box-shadow: 5px 5px 40px 2px rgba(51,51,51,0.49);
+    -moz-box-shadow: 5px 5px 40px 2px rgba(51,51,51,0.49);
+    box-shadow: 5px 5px 40px 2px rgba(51,51,51,0.49);
+}
+.dataview-context-menu > ul > li > span{
+    cursor:pointer;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    font-weight:600;
+}
+.dataview-context-menu > ul > li > span:hover{
+    background-color:lightgray;
+}
+.dataview-context-menu > ul > li > span.context-button-disabled{
+    color:lightgray;
+    font-weight:600;
+}
+.dataview-context-menu > ul > li > span.context-button-disabled:hover{
+    background-color:white;
+    cursor:default;
+}
+
+.dataview-context-menu ul{
+    list-style:none;
+    padding: 5px 0px 0px 0px;
+}
+
+.dataview-selected-cell{
+    background-color:#eee;
+}
+.dataview-configButton>li>span
+{
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    cursor:pointer;
+}
+.dataview-configButton>li>span:hover
+{
+    background-color:lightgray;
+}
+.dataviewBody tr > td:first-child {
+    background-color: lightgray;
+}
+.dataviewBody tr > td:first-child:hover{
+    background-color:gray;
+}
+.dataviewBody tr td {
+    /*white-space:nowrap;*/
+} 
+.dataview-deleted{
+    background-color:pink !important;
+    text-decoration:line-through;
+}
+.dataview-deleted .dataview-selected-cell{
+    background-color:pink !important;
+    text-decoration:line-through;
+}
+.dataview-header-content{
+    float:left;
+    width:95%;
+}
+.dataview-header-resizable{
+    cursor:col-resize;
+    float:right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right:-6px;
+    color:white;
+}

@@ -1,0 +1,96 @@
+html, body, #container {
+	margin: 0px;
+	background-color: #dde2e9;
+	font-family: arial;
+	height: 98%;
+	font-family: arial;
+}
+
+a:link, a:visited {
+	color: red;
+	font-weight: bold;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+#work-area {
+	text-align: center;
+	width: 100%;
+	height: 90%;
+}
+
+#work-panel {
+	width: 98%;
+	height: 95%;
+	margin: 1% 1% 0 1%;
+	background-color: #fff;
+	border-radius: 10px 10px 10px 10px;
+    border: solid 2px #ff0000;
+	padding: 2px;
+}
+
+#table-container{
+    height:100%;
+}
+.vftab-pane{
+    height: 100%;
+    overflow: auto;
+}
+#work-panel table {
+  font-size: 12px;
+  width: 98%;
+  margin-left: 15px;
+  padding: 10px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+#work-panel table th {
+  border-bottom: solid 1px #666;
+  text-align: left;
+}
+
+#work-panel table td {
+  border-bottom:1px solid #ccc;
+}
+
+#work-panel table td.red{
+  border-bottom:1px solid #ccc;
+  color: red;
+}
+.alert{
+    margin-bottom:0;
+}
+.ui-tabs .ui-tabs-panel{
+    padding: 0;
+}
+#vfdrawer{
+    position:absolute;
+    z-index:200;
+    background-color:lightgray;
+    height:100%;
+    align-self:flex-end;
+    padding-left:30px;
+    width:15%;
+    
+
+-webkit-box-shadow: -15px 0px 50px -15px rgba(0,0,0,1);
+-moz-box-shadow: -15px 0px 50px -15px rgba(0,0,0,1);
+box-shadow: -15px 0px 50px -15px rgba(0,0,0,1);
+
+display:none;
+}
+#vfdrawer button.closeVfDrawer{
+    color:black;
+    float:right;
+}
+.dataview-configButton{
+    background-color:lightyellow;
+    border: 1px solid red;
+    min-width: 250px;
+}

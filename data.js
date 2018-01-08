@@ -1,0 +1,27 @@
+﻿const jsonDataFormat = [
+            { Id: "000", Name: "MAC", Values: ["00F82C07B384", "00F82C07B386", "00F82C07B3D0", "00F82C07B3D1", "00F82C07B3E8", "00F82C07B3ED", "00F82C07B3F2", "00F82C07B402", "00F82C07B41B"] },
+            { Id: "000", Name: "Description", Values: ["IPT Base Station (8221000) IPT Base Station (8221000) IPT Base Station (8221000)", "IPT Base Station (8221001)", "IPT Base Station (8221002)", "IPT Base Station (8221003)"] },
+            { Id: "000", Name: "Extension Number", Values: ["1110000", "12001", "10202", "10203", "10204", "10205", "10206", "10207", "10208", "10209", "10210", "10211", "10212", "10213", "10214", "10215", "10216", "10217", "10218", "10219"] },
+            { Id: "000", Name: "CLID", Values: ["+44 0001", "+44 0002", "+44 0002", "+44 0003", "+44 0004"] },
+            { Id: "000", Name: "First Name", Values: ["7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva", "7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva"] },
+            { Id: "000", Name: "Voicemail", Values: ["YES", "NO", "NO", "YES", "NO", "YES", "NO", "NO", "YES", "YES", "YES", "YES"] },
+            { Id: "000", Name: "MAC1", Values: ["00F82C07B384", "00F82C07B386", "00F82C07B3D0", "00F82C07B3D1", "00F82C07B3E8", "00F82C07B3ED", "00F82C07B3F2", "00F82C07B402", "00F82C07B41B"] },
+            { Id: "000", Name: "Description1", Values: ["IPT Base Station (8221000)", "IPT Base Station (8221001)", "IPT Base Station (8221002)", "IPT Base Station (8221003)"] },
+            { Id: "000", Name: "Extension Number1", Values: ["1110000", "12001", "10202", "10203", "10204", "10205", "10206", "10207", "10208", "10209", "10210", "10211", "10212", "10213", "10214", "10215", "10216", "10217", "10218", "10219"] },
+            { Id: "000", Name: "CLID1", Values: ["+44 0001", "+44 0002", "+44 0002", "+44 0003", "+44 0004"] },
+            { Id: "000", Name: "First Name1", Values: ["7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva"] },
+            { Id: "000", Name: "Voicemail1", Values: ["YES", "NO", "NO", "YES", "NO", "YES", "NO", "NO", "YES", "YES", "YES", "YES"] },
+];
+const jsonDataFormat2 = [
+            { Id: "000", Name: "MAC", Values: ["00F82C07B384", "00F82C07B386", "00F82C07B3D0", "00F82C07B3D1", "00F82C07B3E8", "00F82C07B3ED", "00F82C07B3F2", "00F82C07B402", "00F82C07B41B"] },
+            { Id: "000", Name: "Extension Number", Values: ["1110000", "12201", "10202", "10203", "10204", "10205", "10206", "10207", "10208", "10209", "10210", "10211", "10212", "10213", "10214", "10215", "10216", "10217", "10218", "10219"] },
+            { Id: "000", Name: "CLID", Values: ["+44 0001", "+44 0002", "+44 0002", "+44 0003", "+44 0004"] },
+            { Id: "000", Name: "First Name", Values: ["7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva"] },
+            { Id: "000", Name: "Voicemail", Values: ["YES", "NO", "NO", "YES", "NO", "YES", "NO", "NO", "YES", "YES", "YES", "YES"] },
+            { Id: "000", Name: "MAC1", Values: ["00F82C07B384", "00F82C07B386", "00F82C07B3D0", "00F82C07B3D1", "00F82C07B3E8", "00F82C07B3ED", "00F82C07B3F2", "00F82C07B402", "00F82C07B41B"] },
+            { Id: "000", Name: "Description1", Values: ["IPT Base Station (8221000)", "IPT Base Station (8221001)", "IPT Base Station (8221002)", "IPT Base Station (8221003)"] },
+            { Id: "000", Name: "Extension Number1", Values: ["1110000", "12001", "10202", "10203", "10204", "10205", "10206", "10207", "10208", "10209", "10210", "10211", "10212", "10213", "10214", "10215", "10216", "10217", "10218", "10219"] },
+            { Id: "000", Name: "CLID1", Values: ["+44 0001", "+44 0002", "+44 0002", "+44 0003", "+44 0004"] },
+            { Id: "000", Name: "First Name1", Values: ["7912000", "Moorside", "Catherine", "Graham", "Oliver", "Marilyn", "Cindy", "Moorside", "7912008", "Jasper", "G", "Shiva"] },
+            { Id: "000", Name: "Voicemail1", Values: ["YES", "NO", "NO", "YES", "NO", "YES", "NO", "NO", "YES", "YES", "YES", "YES"] },
+];

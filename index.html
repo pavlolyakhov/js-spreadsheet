@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="dataView/config-button.css">
+    <link rel="stylesheet" href="dataView/data-view.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <title>js spreadsheet - work in progress</title>
+</head>
+    <body>
+        <div id="container">
+            <div id="work-area">
+                <div id="work-panel">
+                    <div id="table-container">
+                        <div class="vftab-pane active" id="tabs-1"></div>
+                        <div class="vftab-pane" id="tabs-2"></div>
+                    </div>
+                </div>
+                <ul class="vftab-bar">
+                    <li class="vftab vftab-active" data-tabid="tabs-1">Tab1</li>
+                    <li class="vftab" data-tabid="tabs-2">Tab2</li>
+                </ul>
+            </div>
+
+            <div id="vfdrawer">
+                <button class="btn btn-lg closeVfDrawer"><span>&times;</span></button>
+                <h3>History</h3>
+                <ul>
+                    <li>Date 1 - link 1</li>
+                    <li>Date 2 - link 2</li>
+                    <li>Date 3 - link 3</li>
+                    <li>Date 4 - link 4</li>
+                    <li>Date 5 - link 5</li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="dataView/data-view.js"></script>
+        <script src="data.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
+
