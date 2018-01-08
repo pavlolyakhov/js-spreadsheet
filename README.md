@@ -21,3 +21,8 @@ Features:
 - configurable grid size
 
 More features are coming!
+
+
+# Usage
+dataView(parentElement, scrollableParentElement, numberOfRows, numberOfColumns, isReadOnly)
+const table1 = new dataView('tabs-1', 'work-panel', 1500, 15, 0);
