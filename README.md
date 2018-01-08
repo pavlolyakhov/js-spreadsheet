@@ -1,7 +1,7 @@
 Spreadsheet grid view for data editing. It can be included into a tab forming excel like spreadsheet with many tabs.
 One js-spreadsheet object instance per tab.
 
-It is very fast and build to works with large volumes of data.
+It is very fast and built to work with large volume of data.
 
 Features:
 
